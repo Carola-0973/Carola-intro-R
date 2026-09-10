@@ -1,0 +1,28 @@
+---
+title: "Personal webpage"
+author: "Carolina S. Romero Montes"
+date: "`r format(Sys.time(),'%Y-%b-%d, %I:%M %p')`"
+output: 
+  prettydoc::html_pretty:
+      theme: cayman
+      highlight: github
+---
+<center>
+<img src="2026-09-01 at 16.35.15.jpeg" width="335"height="320"/>
+</center>
+
+Hola, mi nombre es Carolina S. Romero Montes y soy estudiante graduada de Biología de la UPRM. <br>
+
+*italics* **bold** *__bolditalics__* <br>
+
+## titulo
+- lista
+  * bullets
+  
+## Chunks
+
+```{r echo=T, warning=F}
+library(ggplot2)
+```
+
+gghghghhg
