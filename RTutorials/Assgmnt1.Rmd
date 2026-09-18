@@ -1,0 +1,59 @@
+---
+title: "Assignment 1"
+author: "Carolina S Romero Montes"
+date: "`r format(Sys.time(),'%Y-%b-%d, %I:%M %p')`"
+output: html_document 
+---
+
+#### **Assigning values**
+**Q1**
+```{r}
+height <- 175
+height
+```
+**Q2**
+```{r}
+25*4-10
+```
+**Q3**
+```{r}
+sqrt(81)
+```
+**Q4**
+```{r}
+message <- "R is fun!"
+message
+```
+**Q5**
+```{r}
+a <- 10
+b <- 5
+c <- a+b
+c
+```
+**Q6**
+```{r}
+15 > 20
+```
+**Q7**
+```{r}
+class("Hello, world!")
+```
+**Q8**
+```{r}
+log(-1)
+```
+```{r, warning=FALSE}
+log(-1)
+```
+**Q9**
+```{r, message=FALSE}
+library(dplyr)
+```
+**Q10**
+```{r}
+grades <-c(80,90,75,95,85)
+average <- mean(grades)
+average
+```
+
