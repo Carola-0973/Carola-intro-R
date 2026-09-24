@@ -11,18 +11,11 @@ output:
 <img src="2026-09-01 at 16.35.15.jpeg" width="335"height="320"/>
 </center>
 
-Hola, mi nombre es Carolina S. Romero Montes y soy estudiante graduada de Biología de la UPRM. <br>
+Hola, mi nombre es Carolina S. Romero Montes y soy estudiante graduada de Biología de la UPRM. Mi interés son las aves, en especial las acuáticas.
 
-*italics* **bold** *__bolditalics__* <br>
 
-## titulo
-- lista
-  * bullets
-  
-## Chunks
 
-```{r echo=T, warning=F}
-library(ggplot2)
-```
+[Assingment 1](RTutorials/Assgmnt1.html)
+[Assingment 2](RTutorials/Assgmnt2.html)
 
-gghghghhg
+
