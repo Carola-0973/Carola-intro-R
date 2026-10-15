@@ -1,0 +1,7 @@
+---
+title: "Examen1"
+author: "Carolina S. Romero Montes"
+output: html_document
+date: "`r format(Sys.time(),'%Y-%b-%d, %I:%M %p')`"
+---
+
