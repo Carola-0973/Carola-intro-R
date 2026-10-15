@@ -14,8 +14,14 @@ output:
 Hola, mi nombre es Carolina S. Romero Montes y soy estudiante graduada de Biología de la UPRM. Mi interés son las aves, en especial las acuáticas.
 
 
+# RTutorials
 
-[Assingment 1](RTutorials/Assgmnt1.html)
-[Assingment 2](RTutorials/Assgmnt2.html)
+[Assingment 1](RTutorials/Assgmnt1.html) <br>
+[Assingment 2](RTutorials/Assgmnt2.html) <br>
+[Assingment 3](RTutorials/Assgmnt3.html)
+
+# Exámenes
+
+[Examen 1](RTutorials/Examen1.html)
 
 
