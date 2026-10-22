@@ -4,4 +4,53 @@ author: "Carolina S. Romero Montes"
 output: html_document
 date: "`r format(Sys.time(),'%Y-%b-%d, %I:%M %p')`"
 ---
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+#install.packages("tidyverse")
+library(tidyverse)
+#install.packages("aod")
+library(aod)
+```
+```{r}
+msleep <- glimpse(msleep)
+storms <- storms
+lizards <- lizards
+```
+
+
+**1.**
+```{r}
+mmls12hrs<-filter(msleep, sleep_total>=12)
+head(mmls12hrs)
+```
+**2.** 
+```{r}
+msleep%>%
+  mutate(percent_day_awake = (sleep_total/24) *100)%>%
+  select(percent_day_awake, everything())
+
+```
+
+**3.**
+```{r}
+storms%>%
+  group_by(year)%>%
+  summarise(num_storms=n())
+```
+**4.**
+```{r}
+storms%>%
+  filter(wind>50)%>%
+  arrange(desc(wind))
+```
+**5.**
+<br>
+**6.**
+```{r}
+ggplot(lizards, aes(x=Site, y=opalinus))+
+  geom_boxplot()
+```
+
+
+
 
